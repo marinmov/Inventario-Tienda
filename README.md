@@ -1,18 +1,38 @@
-## Getting Started
+# 🛒 Sistema de Inventario y Punto de Venta
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este proyecto es una aplicación de consola en Java que permite administrar productos e implementar un flujo básico de ventas. Ideal para aprender conceptos como organización por paquetes, el patrón MVC y gestión de datos en memoria.
 
-## Folder Structure
+## 📦 Estructura del Proyecto
 
-The workspace contains two folders by default, where:
+Inventario-Tienda/
+├── src/
+│ ├── app/ # Clase Main
+│ ├── model/ # Clases de datos: Producto, Inventario, Venta
+│ ├── controller/ # Lógica de negocio
+│ └── view/ # Interfaz por consola
+├── bin/ # Archivos compilados
+├── .gitignore
+└── README.md
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🚀 Cómo ejecutar
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+1. Compila todos los archivos: javac -d bin src/**/*.java
 
-## Dependency Management
+## 🧩 Funcionalidades
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Registro de productos con ID, nombre, precio y stock.
+- Consulta del inventario en cualquier momento.
+- Agregar productos a una venta.
+- Finalizar venta con cálculo de total y desglose de productos.
+
+## 💡 Futuras mejoras
+
+- Módulo de clientes.
+- Persistencia en base de datos (SQLite o MySQL).
+- Interfaz gráfica (JavaFX o Swing).
+- Reportes de ventas y stock bajo.
+
+### Desarrollado con ☕ por Marinmov
+
+
